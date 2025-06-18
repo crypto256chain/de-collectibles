@@ -130,7 +130,7 @@ export default function HomePage() {
                   asChild
                 >
                   <Link href="/create">
-                    <Sparkles className="w-6 h-6 mr-3 group-hover:rotate-12 transition-transform" />
+                    <Sparkles className=" text-black w-6 h-6 mr-3 group-hover:rotate-12 transition-transform" />
                     Create NFT
                   </Link>
                 </Button>
