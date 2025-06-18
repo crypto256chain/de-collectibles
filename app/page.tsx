@@ -129,8 +129,8 @@ export default function HomePage() {
                   className="group border-2 border-white/20 text-white hover:bg-white/10 backdrop-blur-xl px-8 py-4 text-lg font-semibold rounded-2xl hover:border-white/40 transform hover:scale-105 transition-all duration-300"
                   asChild
                 >
-                  <Link href="/create">
-                    <Sparkles className=" text-black w-6 h-6 mr-3 group-hover:rotate-12 transition-transform" />
+                  <Link href="/create" className="text-white bg-white/5">
+                    <Sparkles className="w-6 h-6 mr-3 group-hover:rotate-12 transition-transform" />
                     Create NFT
                   </Link>
                 </Button>
@@ -211,7 +211,7 @@ export default function HomePage() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="border-2 border-white/20 text-white hover:bg-white/10 backdrop-blur-xl px-8 py-4 rounded-2xl hover:border-purple-400 transition-all duration-300"
+                  className="border-2 border-white/20 text-white bg-white/5 hover:bg-white/10 backdrop-blur-xl px-8 py-4 rounded-2xl hover:border-purple-400 transition-all duration-300"
                 >
                   View All Collections
                   <ArrowRight className="w-5 h-5 ml-2" />

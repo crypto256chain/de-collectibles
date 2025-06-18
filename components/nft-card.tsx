@@ -360,7 +360,7 @@ export function NFTCard({ nft, featured = false, viewMode = "grid" }: NFTCardPro
             <Button
               variant="outline"
               onClick={handleMakeOffer}
-              className="border-2 border-white/20 text-white hover:bg-white/10 hover:text-white hover:border-white/40 py-3 px-4 rounded-2xl transform hover:scale-105 transition-all duration-300"
+              className="border-2 text-white bg-white/5 border-white/20 text-white hover:bg-white/10 hover:text-white hover:border-white/40 py-3 px-4 rounded-2xl transform hover:scale-105 transition-all duration-300"
             >
               <Gavel className="w-4 h-4 mr-2" />
               Offer
